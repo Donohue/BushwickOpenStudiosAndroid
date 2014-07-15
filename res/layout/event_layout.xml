@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout android:id="@+id/event_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout android:id="@+id/event_view_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        	<TextView android:id="@+id/event_name"
+            	android:layout_width="match_parent"
+            	android:layout_height="wrap_content"/>
+        	<TextView android:id="@+id/event_hours"
+           	 	android:layout_width="match_parent"
+            	android:layout_height="wrap_content"/>
+      	</LinearLayout>
+      	<LinearLayout android:id="@+id/event_description"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical">
+      		<TextView android:id="@+id/event_short_description"
+            	android:layout_width="match_parent"
+            	android:layout_height="wrap_content"/>
+        	<TextView android:id="@+id/event_long_description"
+            	android:layout_width="match_parent"
+            	android:layout_height="wrap_content"/>
+       	</LinearLayout>
+       	<LinearLayout android:id="@+id/event_address_section"
+       	    android:layout_width="match_parent"
+       	    android:layout_height="wrap_content"
+       	    android:orientation="vertical">
+        	<TextView android:id="@+id/event_address"
+        	    android:layout_width="match_parent"
+        	    android:layout_height="wrap_content"/>
+       	</LinearLayout>
+    </LinearLayout>
+    
+
+</ScrollView>
